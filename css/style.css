@@ -1,0 +1,350 @@
+/*MAIN SECTION*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.body,
+h1, h2, h3, h4, p, ul, li, div {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 32px;
+    color: #f7f7f7;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+.inner {
+    width: 1140px;
+    margin: 0 auto;
+    /*box-sizing: border-box;*/
+}
+
+.overflow {
+    overflow: hidden;
+}
+
+.clear {
+    clear: both;
+}
+
+.button {
+   background-color: #ffa366;
+   font-size: 18px;
+   line-height: 17px;
+   text-align: center;
+   padding: 20px 0px;
+   box-sizing: border-box;
+   cursor: pointer;
+   border-radius: 5px;
+}
+/*HEADER SECTION*/
+
+.header { 
+    background-color: #403f3f;
+}
+
+.header .inner {
+    padding: 41px 0px 90px;
+}
+
+.header_first-row h1 {
+    margin: 0px;
+    font-size: 36px;
+    line-height: 55px;
+    text-transform: uppercase;
+    float: left;
+    margin-right: 90px;
+}
+
+.header ul,
+.header li {
+    text-transform: uppercase;
+    list-style-type: none;
+    font-size: 18px;
+    line-height: 55px;
+    float: left;
+    margin-right: 30px;
+}
+
+.header .button {
+    float: right;
+    width: 215px;
+    height: 55px;
+}
+
+.header_second-row {
+    margin-top: 111px;
+}
+
+.header_second-row img {
+    margin-left: 24px;
+    float: left;
+}
+
+.header_second-row_text{ 
+    float: left;
+    margin-left: 30px;
+    width: 705px;
+}
+
+.header_second-row_text h1{
+    text-align: center;
+    line-height: 64px;
+}
+
+.header_second-row_text h2{
+    font-size: 20px;
+    color: #ffa366;
+    text-align: center;
+    line-height: 64px;
+    margin-bottom: 58px;
+}
+
+.header_second-row_text p {
+    line-height: 32px;
+    margin-bottom: 15px;
+}
+
+.header_signature {
+    margin-top: 61px;
+}
+/*ABOUT THE BOOK SECTION*/
+
+.about-the-book { 
+    background-color: #fff;
+}
+
+.about-the-book h1,
+.about-the-book h2,
+.about-the-book h3, 
+.about-the-book p {
+    color: #2d2d2d;
+}
+
+.about-the-book_text {
+    margin: 127px 0px 154px 0px;
+}
+
+.about-the-book_text h1 {
+    font-size: 40px;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.about-the-book_text p {
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: #b5b5b5;
+}
+
+.about-the-book_grid{
+    width: 1140px;
+    height: 760px;
+    margin-bottom: 150px;
+}
+
+.active:hover {
+    background-color: #fff;
+}
+
+.active:hover h2,
+.active:hover h3,
+.active:hover p {
+    color: #2d2d2d !important;
+}
+
+.active {
+    background-color: #ffa366;
+    padding: 107px 54px 64px 54px !important;
+}
+
+.active h2,
+.active h3,
+.active p {
+    color: #fff !important;
+}
+
+.grid_cell {
+    box-sizing: border-box;
+    float: left;
+    width: 380px;
+    height: 380px;
+    text-align: center;
+    padding: 142px 54px 142px 54px;
+}
+
+.first_row .grid_cell {
+    border-bottom: 1px solid #d5d5d5;
+    border-right: 1px solid #d5d5d5;
+}
+
+.first_row .grid_cell:last-child {
+    border-right: none;
+}
+
+.second_row .grid_cell {
+    border-right: 1px solid #d5d5d5;
+}
+
+.second_row .grid_cell:last-child {
+    border-right: none;
+}
+
+.grid_cell h2 {
+    font-size: 36px;
+    line-height: 32px;
+    margin-bottom: 17px;
+}
+
+.grid_cell h3 {
+    font-size: 48px;
+    line-height: 32px;
+    margin-bottom: 17px;
+}
+
+.grid_cell p {
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.grid_cell_content {
+    vertical-align: middle;
+}
+
+/*BOOK VIDEO REVIEW SECTION*/
+
+.book-video-review { 
+    background-color: #403f3f;
+}
+
+.book-video-review .inner {
+    padding: 68px 0px 98px 0px;
+}
+
+.book-video-review h1,
+.book-video-review p { 
+    text-align: center;
+}
+
+.book-video-review h1{
+    margin-bottom: 32px;
+    line-height: 28px;
+}
+
+.book-video-review p {
+    color: #b5b5b5;
+    line-height: 24px;
+}
+
+.book-video-review_first-section {
+    margin-bottom: 60px;
+}
+
+.book-video-review .button {
+    float: left;
+    width: 220px;
+    height: 55px;
+    text-align: center;
+    margin: 62px 0px 50px 0px;
+    font-size: 14px;
+}
+
+.book-video-review_second-section p{
+    float: left;
+    line-height: 55px;
+    margin: 62px 0px 50px 131px;
+    font-size: 14px;
+}
+
+.book-video-review_second-section img {
+    float: right;
+    margin-right: 15px;
+}
+/*FOOTER SECTION*/
+
+.footer { 
+    background-color: #fff;
+}
+
+.footer_first-section {
+    background-color: #f6f6f6;
+}
+
+.footer_first-section .inner {
+    padding: 67px 0px 69px 155px;
+}
+
+.footer_first-section h3 {
+    color: #b5b5b5;
+    line-height: 26px;
+    margin-bottom: 40px;
+}
+
+.footer_first-section p {
+    color: #373737;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.footer_first-section p:not(:last-child) {
+    margin-bottom: 25px;
+}
+
+.footer_first-section_left-block{
+    float: left;
+    width: 400px;
+    margin-right: 38px;
+}
+
+.footer_first-section_right-block{
+    float: left;
+    width: 400px;
+}
+
+.footer_second-section {
+    background-color: #fff;
+}
+
+.footer_second-section .inner {
+    padding: 72px 0px 105px 0px;
+}
+
+.footer ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0px 340px 50px 340px;
+}
+
+.footer li {
+    color: #b5b5b5;
+    float: left;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+.footer li:not(:last-child) {
+    margin-right: 32px;
+}
+
+.footer_icons {
+    margin: 0px 500px 0px 500px;
+}
+
+.footer_icons i {
+    color: #cdcdcd;
+    float: left;
+}
+
+.footer_icons i:hover {
+    color: #ffa366;
+}
+
+.footer_icons i:not(:last-child){
+    margin-right: 25px;
+}
