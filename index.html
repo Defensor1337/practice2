@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Задание CSS Текст</title>
+    <title>Домашнее задание №2</title>
     <link href="css/style.css" type="text/css" rel="stylesheet" />
     <link rel="stylesheet" href="css/font-awesome.min.css">
 </head>
@@ -13,15 +13,15 @@
     <div class="header">
         <div class="inner">
             <div class="header_first-row overflow">
-                <h1>Mastering design</h1>
-                <ul>
-                    <li>About</li>
-                    <li>Chapters</li>
-                    <li>Contacts</li>
+                <a href=""><h1>Mastering design</h1></a>
+                <ul class="last">
+                    <a href="#about"><li>About</li></a>
+                    <a href="#chapters"><li>Chapters</li></a>
+                    <a href="#contacts"><li class="last">Contacts</li></a>
                 </ul>
-                <div class="button">Buy a copy</div>
+                <a href=""><div class="button">Buy a copy</div></a>
             </div>
-            <div class="header_second-row overflow">
+            <div class="header_second-row overflow" id="about">
                 <img src="images/Henry-avatar.png">
                 <div class="header_second-row_text">
                     <h1>Book Introduction</h1>
@@ -41,7 +41,7 @@
             </div>
         </div>
     </div>
-    <div class="about-the-book">
+    <div class="about-the-book" id="chapters">
         <div class="inner">
             <div class="about-the-book_text">
                 <h1>Chapters</h1>
@@ -103,7 +103,7 @@
                     Get started with chapter 1 on Visual Hierarchy.</p>
             </div>
             <div class="book-video-review_second-section overflow">
-                <div class="button">Send me the chapters</div>
+                <a href=""><div class="button">Send me the chapters</div></a>
                 <p>We guarantee 100% privacy. Your information will never be shared.</p>
                 <img src="images/Henry-avatar.png">
             </div>
@@ -132,7 +132,7 @@
                 </div>
             </div>
         </div>
-        <div class="footer_second-section">
+        <div class="footer_second-section" id="contacts">
             <div class="inner">
                 <ul>
                     <li>&copy; Mastering UI Design: The book, 2016</li>
@@ -140,10 +140,10 @@
                     <li>Terms of Use</li>
                 </ul>
                 <div class="footer_icons overflow">
-                    <i class="fa fa-twitter" aria-hidden="true"></i>
-                    <i class="fa fa-facebook" aria-hidden="true"></i>
-                    <i class="fa fa-instagram" aria-hidden="true"></i>
-                    <i class="fa fa-dribbble" aria-hidden="true"></i>
+                    <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-dribbble last" aria-hidden="true"></i></a>
                 </div>
             </div>
         </div>

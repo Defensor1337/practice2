@@ -41,6 +41,11 @@ h1 {
    cursor: pointer;
    border-radius: 5px;
 }
+
+.button:hover {
+    color: #2d2d2d;
+    background-color: #fff;
+}
 /*HEADER SECTION*/
 
 .header { 
@@ -68,6 +73,11 @@ h1 {
     line-height: 55px;
     float: left;
     margin-right: 30px;
+}
+
+.header_first-row h1:hover,
+.header li:hover {
+    color: #ffa366;
 }
 
 .header .button {
@@ -118,6 +128,10 @@ h1 {
     background-color: #fff;
 }
 
+.about-the-book .inner {
+    padding: 127px 0px 150px 0px;
+}
+
 .about-the-book h1,
 .about-the-book h2,
 .about-the-book h3, 
@@ -126,7 +140,7 @@ h1 {
 }
 
 .about-the-book_text {
-    margin: 127px 0px 154px 0px;
+    margin-bottom: 154px;
 }
 
 .about-the-book_text h1 {
@@ -146,7 +160,7 @@ h1 {
 .about-the-book_grid{
     width: 1140px;
     height: 760px;
-    margin-bottom: 150px;
+
 }
 
 .active:hover {
@@ -345,6 +359,11 @@ h1 {
     color: #ffa366;
 }
 
-.footer_icons i:not(:last-child){
+.last {
+    margin-right: 0px !important;
+}
+
+.footer_icons i{
     margin-right: 25px;
+    text-align: center;
 }
